@@ -19,6 +19,6 @@ namespace KsevaMine.Domain.Entities
 
         // Навигационные свойства для связи с серверами и версиями сборки
         public ICollection<Server> Servers { get; set; } = new List<Server>();                      // Коллекция серверов, использующих эту сборку
-        public ICollection<BuildVersion> BuildVersions { get; set; } = new List<BuildVersion>();    // Коллекция версий сборки, связанных с этой сборкой
+        public ICollection<BuildVersion> Versions { get; set; } = new List<BuildVersion>();    // Коллекция версий сборки, связанных с этой сборкой
     }
 }
