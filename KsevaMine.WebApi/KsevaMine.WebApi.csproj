@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KsevaMine.Application\KsevaMine.Application.csproj" />
+    <ProjectReference Include="..\KsevaMine.Persistence\KsevaMine.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

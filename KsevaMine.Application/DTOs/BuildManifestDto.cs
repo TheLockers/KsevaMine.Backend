@@ -5,7 +5,7 @@ using KsevaMine.Domain.Entities;
 
 namespace KsevaMine.Application.DTOs
 {
-    public class BuildManifestDto : IMapFrom<BuildVersion>
+    public class BuildManifestDto : IMapWith<BuildVersion>
     {
         public string BuildId { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
