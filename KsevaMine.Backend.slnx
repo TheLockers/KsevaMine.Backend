@@ -1,13 +1,13 @@
 <Solution>
   <Folder Name="/Core/">
-    <Project Path="KsevaMine.Application/KsevaMine.Application.csproj" Id="f16a2579-392e-4946-96fc-ea74bc8a29cb" />
-    <Project Path="KsevaMine.Domain/KsevaMine.Domain.csproj" Id="367f4b11-3484-48a7-9b35-ea1f7499b08a" />
+    <Project Path="src/Core/KsevaMine.Domain/KsevaMine.Domain.csproj" Id="367f4b11-3484-48a7-9b35-ea1f7499b08a" />
+    <Project Path="src/Core/KsevaMine.Application/KsevaMine.Application.csproj" Id="f16a2579-392e-4946-96fc-ea74bc8a29cb" />
   </Folder>
-  <Folder Name="/Infrastucture/">
-    <Project Path="KsevaMine.Persistence/KsevaMine.Persistence.csproj" Id="1219f9f1-fc82-4e47-90b4-fdc4f15d334e" />
+  <Folder Name="/Infrastructure/">
+    <Project Path="src/Infrastructure/KsevaMine.Persistence/KsevaMine.Persistence.csproj" Id="1219f9f1-fc82-4e47-90b4-fdc4f15d334e" />
   </Folder>
   <Folder Name="/Presentation/">
-    <Project Path="KsevaMine.WebApi/KsevaMine.WebApi.csproj" Id="7b9dcd33-1d54-4f3e-bbbf-bce37de94517" />
+    <Project Path="src/Presentation/KsevaMine.WebApi/KsevaMine.WebApi.csproj" Id="7b9dcd33-1d54-4f3e-bbbf-bce37de94517" />
   </Folder>
   <Folder Name="/Tests/" />
 </Solution>
