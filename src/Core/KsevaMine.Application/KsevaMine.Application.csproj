@@ -7,17 +7,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\KsevaMine.Domain\KsevaMine.Domain.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="16.1.1" />
 		<PackageReference Include="MediatR" Version="14.1.0" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Servers\" />
+	  <Folder Include="Servers\Commands\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\KsevaMine.Domain\KsevaMine.Domain.csproj" />
 	</ItemGroup>
 
 </Project>

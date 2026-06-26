@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KsevaMine.Application\KsevaMine.Application.csproj" />
-    <ProjectReference Include="..\KsevaMine.Persistence\KsevaMine.Persistence.csproj" />
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.9" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\KsevaMine.Application\KsevaMine.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\KsevaMine.Persistence\KsevaMine.Persistence.csproj" />
+  </ItemGroup>
+
 
 </Project>

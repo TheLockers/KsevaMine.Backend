@@ -31,7 +31,7 @@ namespace KsevaMine.Application.Builds.Commands.CreateBuild
             };
 
             await _db.Builds.AddAsync(build, cancellationToken);
-            await _db.SaveChangesAsync(cancellationToken); // 
+            await _db.SaveChangesAsync(cancellationToken);
 
             return build.Id;
         }

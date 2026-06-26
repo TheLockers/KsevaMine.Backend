@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KsevaMine.Application\KsevaMine.Application.csproj" />
+    <ProjectReference Include="..\..\Core\KsevaMine.Application\KsevaMine.Application.csproj" />
   </ItemGroup>
 
 </Project>

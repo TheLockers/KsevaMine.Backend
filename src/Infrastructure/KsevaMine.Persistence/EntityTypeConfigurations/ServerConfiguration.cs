@@ -23,7 +23,12 @@ namespace KsevaMine.Persistence.EntityTypeConfigurations
             builder.Property(server => server.Name)     // Конфигурация свойства Name
                 .HasMaxLength(255)                      // Устанавливает максимальную длину для поля Name, ограничивая его до 255 символов, что обеспечивает оптимальное использование пространства в базе данных и предотвращает слишком длинные имена серверов
                 .IsRequired();                          // Указывает, что поле Name является обязательным, не позволяя сохранять записи без указания имени сервера 
+            
+            builder.Property(server => server.Port)
+                .HasMaxLength(5).IsRequired();
 
+            builder.Property(server => server.Description)
+                .IsRequired(false);
 
             // Конфигурация отношений между Server и Build, а также между Server и BuildVersion
 
